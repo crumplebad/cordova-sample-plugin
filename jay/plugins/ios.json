@@ -1,0 +1,18 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "nyc.ijay.sample"
+        },
+        "nyc-ijay-plugin-nativetable": {
+            "PACKAGE_NAME": "nyc.ijay.sample"
+        }
+    },
+    "dependent_plugins": {}
+}

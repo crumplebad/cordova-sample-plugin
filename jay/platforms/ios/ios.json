@@ -1,0 +1,43 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {
+            "config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"NativeTable\"><param name=\"ios-package\" value=\"NativeTable\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "nyc.ijay.sample"
+        },
+        "nyc-ijay-plugin-nativetable": {
+            "PACKAGE_NAME": "nyc.ijay.sample"
+        }
+    },
+    "dependent_plugins": {},
+    "modules": [
+        {
+            "id": "nyc-ijay-plugin-nativetable.NativeTable",
+            "file": "plugins/nyc-ijay-plugin-nativetable/www/NativeTable.js",
+            "pluginId": "nyc-ijay-plugin-nativetable",
+            "clobbers": [
+                "nativetable"
+            ]
+        }
+    ],
+    "plugin_metadata": {
+        "cordova-plugin-whitelist": "1.3.2",
+        "nyc-ijay-plugin-nativetable": "1"
+    }
+}

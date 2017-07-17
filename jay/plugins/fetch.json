@@ -1,0 +1,18 @@
+{
+    "cordova-plugin-whitelist": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-whitelist@1"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "nyc-ijay-plugin-nativetable": {
+        "source": {
+            "type": "local",
+            "path": "/Users/jay/Workspace/GoHY/jay/node_modules/NativeTable"
+        },
+        "is_top_level": true,
+        "variables": {}
+    }
+}

@@ -1,0 +1,62 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/Users/jay/Workspace/GoHY/jay/dev/NativeTable",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/Users/jay/Workspace/GoHY/jay/dev/NativeTable",
+        "spec": "/Users/jay/Workspace/GoHY/jay/dev/NativeTable",
+        "type": "directory"
+      },
+      "/Users/jay/Workspace/GoHY/jay/node_modules"
+    ]
+  ],
+  "_from": "dev/NativeTable",
+  "_id": "NativeTable@1.0.0",
+  "_inCache": true,
+  "_location": "/NativeTable",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/Users/jay/Workspace/GoHY/jay/dev/NativeTable",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/Users/jay/Workspace/GoHY/jay/dev/NativeTable",
+    "spec": "/Users/jay/Workspace/GoHY/jay/dev/NativeTable",
+    "type": "directory"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "file:dev/NativeTable",
+  "_shasum": "9f912790bc6ad53cae092f48fcda6efceebf3839",
+  "_shrinkwrap": null,
+  "_spec": "/Users/jay/Workspace/GoHY/jay/dev/NativeTable",
+  "_where": "/Users/jay/Workspace/GoHY/jay/node_modules",
+  "author": {
+    "name": "Jay G"
+  },
+  "cordova": {
+    "id": "nyc-ijay-plugin-nativetable",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "dependencies": {},
+  "description": "Native Table Demo Cordova Plugin",
+  "devDependencies": {},
+  "keywords": [
+    "cordova",
+    "table",
+    "native",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "name": "NativeTable",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "version": "1.0.0"
+}

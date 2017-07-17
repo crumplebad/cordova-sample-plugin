@@ -1,0 +1,19 @@
+{
+  "name": "NativeTable",
+  "version": "1.0.0",
+  "description": "Native Table Demo Cordova Plugin",
+  "cordova": {
+    "id": "nyc-ijay-plugin-nativetable",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "keywords": [
+    "cordova",
+    "table",
+    "native",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "author": "Jay G"
+}

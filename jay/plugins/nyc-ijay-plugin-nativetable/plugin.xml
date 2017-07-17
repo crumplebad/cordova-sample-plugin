@@ -1,0 +1,17 @@
+<?xml version='1.0.0' encoding='utf-8'?>
+<plugin id="nyc-ijay-plugin-nativetable" version="1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>NativeTable</name>
+    <js-module name="NativeTable" src="www/NativeTable.js">
+        <clobbers target="nativetable" />
+    </js-module>
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="NativeTable">
+                <param name="ios-package" value="NativeTable" />
+            </feature>
+        </config-file>
+        <header-file src="src/ios/NativeTable.h" />
+        <source-file src="src/ios/NativeTable.m" />
+    </platform>
+    <hook type="after_plugin_add" src="hooks/after_plugin_add.js" />
+</plugin>
